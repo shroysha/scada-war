@@ -1,5 +1,4 @@
 # scada-war
-{*> see code: [https://github.com/shroysha/scada-war](https://github.com/shroysha/scada-war)*}
 > see JavaDoc: [JavaDoc](docs/javadoc/index.html)
 
 ## Description
