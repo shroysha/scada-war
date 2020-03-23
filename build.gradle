@@ -1,0 +1,37 @@
+buildscript {
+apply from: "dev.shroysha.gradle"
+
+}
+
+plugins {
+id("dev.shroysha.plugin")
+id("groovy")
+id("java-library")
+id("io.freefair.lombok")
+id("application")
+id("org.springframework.boot")
+id("io.spring.dependency-management")
+
+}
+
+repositories {
+mavenCentral()
+gradlePluginPortal()
+
+}
+
+dependencies {
+implementation(project(":scada:scada-ejb"))
+implementation("net.wimpi:jamod:1.2")
+implementation("javax.mail:javax.mail-api:1.6.2")
+implementation("org.codehaus.groovy:groovy-all:2.5.9")
+implementation("org.springframework.boot:spring-boot-devtools")
+implementation("org.springframework.boot:spring-boot-starter-web")
+implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+implementation("org.springframework.boot:spring-boot-starter-actuator")
+runtimeOnly("com.h2database:h2")
+
+}
+
+java { sourceCompatibility = JavaVersion.VERSION_11; targetCompatibility = JavaVersion.VERSION_11 }
+application { mainClassName = "App" }

@@ -1,0 +1,162 @@
+###########################################################
+#
+#   SiteConfigs.dat
+#   See Readme.txt for more information on formatting.
+#   
+############################################################
+
+Site Name=Airport PS
+Lat=39.708500
+Long=-77.726500
+Device Name=Radio
+TCPIP=192.168.41.28
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.29
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.30
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+Site Name=Farm Lane PS
+Lat=39.701215
+Long=-77.719136
+Device Name=Radio
+TCPIP=192.168.41.25
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.26
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.27
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+Site Name=CitiCorp PS
+Lat=39.718873
+Long=-77.731662
+Device Name=Radio
+TCPIP=192.168.41.31
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.32
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.33
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+Site Name=Carriage Hills PS
+Lat=39.598761
+Long=-77.723336
+Device Name=Radio
+TCPIP=192.168.41.34
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.35
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.36
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+Site Name=Country Side PS
+Lat=39.698322
+Long=-77.753106
+Device Name=Radio
+TCPIP=192.168.41.37
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.38
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.39
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+Site Name=Oak Ridge PS
+Lat=39.611379
+Long=-77.754402
+Device Name=Radio
+TCPIP=192.168.41.49
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Switch
+TCPIP=192.168.41.50
+Modbus=0
+Discretes=
+Registers=
+
+Device Name=Scada Controller
+TCPIP=192.168.41.51
+Modbus=1
+Discretes=LowLevel:10001c,HighLevel:10002c,Pump1:10003c,Pump2:10004c,PrimaryControl:10005c,MuffinMonster:10006c,Generator:10007c,Flooding:10008c,PowerSupply:10009w,ACPower:10010w,Battery:10011w,DCPower:10012c,Ethernet:10013w,ChassisIntrustion:10014w,TestWarning:10015w,TestCritical:10016c
+Registers=
+end
+
+
+#DeviceName=Touch Screen
+#TCPIP=192.168.10.11
+#Modbus=1
+#Discretes=Pump:10001w,Relay:10002w,Power:10003c
+#Registers=Level:30001c
+
+#Site Name=OCTEst
+#Lat=39.720499
+#Long=-80.783203
+
+#Device Name=Radio
+#TCPIP=192.168.10.21
+#Modbus=0
+#Discretes=
+#Registers=
+
+#Device Name=Touch Screen
+#TCPIP=192.168.10.20
+#Modbus=1
+#Discretes=Pump:10001w,Relay:10002n,Power:10003c
+#Registers=Level:30001c
+#end

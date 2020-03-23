@@ -1,0 +1,2 @@
+description = "Handles web requests for SCADA application"
+version = "1.0-SNAPSHOT"
