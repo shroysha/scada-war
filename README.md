@@ -5,4 +5,4 @@
 Handles web requests for SCADA application
 
 ### Tags
-[Groovy, Application, Spring Boot WAR]
+[Groovy, Application]
